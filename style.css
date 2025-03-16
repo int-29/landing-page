@@ -96,6 +96,7 @@ html, body {
     font-weight: 900;
     color: #1F2937;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .box {
@@ -122,4 +123,30 @@ html, body {
     width: 209.6px;
     text-align: center;
     margin: 10px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding: 50px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    margin: 0;
+    width: 800px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
 }
