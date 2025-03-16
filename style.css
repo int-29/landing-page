@@ -6,7 +6,7 @@ html, body {
 
 .header {
     margin: 0;
-    padding: 0 100px;
+    padding: 0 200px;
     display: flex;
     background-color: #1F2937;
     font-size: 24px;
@@ -32,4 +32,60 @@ html, body {
     display: flex;
     gap: 15px;
 
+}
+
+.hero {
+    display: flex;
+    gap: 490px;
+    height: 400px;
+    padding: 50px 200px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.imagine {
+    display: flex;
+    background-color: gray;
+    height: 226px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 200px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
 }
