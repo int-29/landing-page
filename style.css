@@ -171,3 +171,11 @@ html, body {
 .action button {
     border:#F9FAF8 solid 2px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 10px 0;
+}
